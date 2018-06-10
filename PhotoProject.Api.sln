@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProject.Api", "PhotoProject.Api\PhotoProject.Api\PhotoProject.Api.csproj", "{4389B305-B381-4B50-B1A8-BBB5259A0524}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProject.Api.ServiceModel", "PhotoProject.Api\PhotoProject.Api.ServiceModel\PhotoProject.Api.ServiceModel.csproj", "{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProject.Api.Interface", "PhotoProject.Api\PhotoProject.Api.Interface\PhotoProject.Api.Interface.csproj", "{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProjects.Api.Repository", "PhotoProject.Api\PhotoProjects.Api.Repository\PhotoProjects.Api.Repository.csproj", "{3211C19C-C960-4FB8-B282-386FE16F9DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProject.Api.Manager", "PhotoProject.Api\PhotoProject.Api.Manager\PhotoProject.Api.Manager.csproj", "{C3B1EFBD-E4C5-43EE-A3D3-C79347FBC2DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoProject.Api.ServiceDefinition", "PhotoProject.Api\PhotoProject.Api.ServiceDefinition\PhotoProject.Api.ServiceDefinition.csproj", "{9F8460F5-1958-4E4D-B691-A2FDB01F7FB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4389B305-B381-4B50-B1A8-BBB5259A0524}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3211C19C-C960-4FB8-B282-386FE16F9DA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3211C19C-C960-4FB8-B282-386FE16F9DA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3211C19C-C960-4FB8-B282-386FE16F9DA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3211C19C-C960-4FB8-B282-386FE16F9DA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3B1EFBD-E4C5-43EE-A3D3-C79347FBC2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B1EFBD-E4C5-43EE-A3D3-C79347FBC2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B1EFBD-E4C5-43EE-A3D3-C79347FBC2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B1EFBD-E4C5-43EE-A3D3-C79347FBC2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F8460F5-1958-4E4D-B691-A2FDB01F7FB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F8460F5-1958-4E4D-B691-A2FDB01F7FB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F8460F5-1958-4E4D-B691-A2FDB01F7FB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F8460F5-1958-4E4D-B691-A2FDB01F7FB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {128F756C-DBDB-47B3-BF21-833843DBBDF5}
+	EndGlobalSection
+EndGlobal
