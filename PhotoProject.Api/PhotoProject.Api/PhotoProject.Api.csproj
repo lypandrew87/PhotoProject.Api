@@ -96,6 +96,10 @@
       <Project>{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}</Project>
       <Name>PhotoProject.Api.ServiceModel</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PhotoProjects.Api.Repository\PhotoProjects.Api.Repository.csproj">
+      <Project>{3211c19c-c960-4fb8-b282-386fe16f9da0}</Project>
+      <Name>PhotoProjects.Api.Repository</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

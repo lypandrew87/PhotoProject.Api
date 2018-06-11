@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace PhotoProject.Api.Interface
 {
-    public interface IPhotoManager
+    public interface IPhotoRepository
     {
         List<PhotoUrl> GetPhotoUrls(string category);
     }

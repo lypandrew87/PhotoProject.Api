@@ -1,11 +1,7 @@
 ﻿using Funq;
 using PhotoProject.Api.Interface;
 using PhotoProject.Api.Manager;
-using ServiceStack.Validation;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+using PhotoProject.Api.Repository;
 
 namespace PhotoProject.Api
 {
@@ -18,7 +14,7 @@ namespace PhotoProject.Api
             #endregion
 
             #region Repositories
-
+            container.RegisterAutoWiredAs<PhotoRepository, IPhotoRepository>(); 
             #endregion
         }
     }

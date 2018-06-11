@@ -48,6 +48,10 @@
       <Project>{83BE9E3A-52B7-4386-B806-6E13A6A1A73D}</Project>
       <Name>PhotoProject.Api.Interface</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PhotoProject.Api.ServiceModel\PhotoProject.Api.ServiceModel.csproj">
+      <Project>{53E82AC1-DD1D-4C66-B55F-F9F4ACFB2F40}</Project>
+      <Name>PhotoProject.Api.ServiceModel</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

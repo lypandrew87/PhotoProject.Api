@@ -7,9 +7,10 @@ namespace PhotoProject.Api.ServiceDefinition
 {
     public class PhotoService : Service
     {
-        IPhotoManager _photoManager; 
-        public PhotoService(IPhotoManager photoManager) {
-            _photoManager = photoManager; 
+        IPhotoManager _photoManager;
+        public PhotoService(IPhotoManager photoManager)
+        {
+            _photoManager = photoManager;
         }
 
         public object Any(Hello request)
@@ -19,9 +20,10 @@ namespace PhotoProject.Api.ServiceDefinition
 
         public GetPhotoUrlsResponse Get(GetPhotoUrl request)
         {
-            _photoManager.GetPhotoUrls(request.Category);
-            return null; 
+            return new GetPhotoUrlsResponse()
+            {
+                PhotoUrl = _photoManager.GetPhotoUrls(request.Category)
+            };
         }
-
     }
 }
